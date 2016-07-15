@@ -1,7 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: devel
- * Date: 15/07/16
- * Time: 15:47
- */
+
+class WelcomeLib
+{
+
+    protected $message;
+
+    public function __construct()
+    {
+        $this->message = "Nice to meet you";
+    }
+}
